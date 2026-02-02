@@ -1,0 +1,60 @@
+.title {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ff0050;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 10px 0;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+    animation: warnaBerubah 5s infinite alternate;
+}
+
+@keyframes warnaBerubah {
+    0% {
+        color: #0e0c0d;
+    }
+    25% {
+        color: #6d1462;
+    }
+    50% {
+        color: #0c2387;
+    }
+    75% {
+        color: #8113a0;
+    }
+    100% {
+        color: #0b0404;
+    }
+}
+
+body {
+    background-color: #0f0b0b;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    animation: rainbow 5s infinite linear;
+}
+
+@keyframes rainbow {
+    0% {
+        background-color: hsl(0, 46%, 23%);
+        /* merah */
+    }
+    25% {
+        background-color: hsl(307, 71%, 20%);
+        /* hijau */
+    }
+    50% {
+        background-color: hsl(217, 67%, 24%);
+        /* biru */
+    }
+    75% {
+        background-color: hsl(303, 72%, 11%);
+        /* ungu */
+    }
+    100% {
+        background-color: hsl(0, 75%, 2%);
+        /* kembali ke merah */
+    }
+}
